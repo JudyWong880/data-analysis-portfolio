@@ -1,0 +1,808 @@
+GMX Token
+GMX is the platform's utility and governance token, holding the token unlocks a variety of benefits.
+
+Additionally, escrowed GMX (esGMX) was distributed as an incentive in certain cases. You can learn more about esGMX on the Rewards page.
+
+Token Information
+GMX Token Address
+Arbitrum: 0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a
+Avalanche: 0x62edc0692BD897D2295872a9FFCac5425011c661
+Buying GMX
+Steps to purchase GMX can be found on the Buy page.
+
+Staking GMX
+Staked GMX earns rewards in GMX tokens. These rewards are funded by swap and leverage trading fees, which are converted to GMX through a buyback mechanism approved by the DAO Tally vote.
+
+You can stake GMX on the Earn page.
+
+Staked GMX Token Address
+After staking GMX you will receive a Staked GMX token. Note that the balance for this token will return your total staked amount including any esGMX tokens.
+
+Arbitrum: 0xd2D1162512F927a7e282Ef43a362659E4F2a728F
+Avalanche: 0x4d268a7d4C16ceB5a606c173Bd974984343fea13
+Treasury
+The GMX treasury is accumulated from the following:
+
+Fees from the GMX/ETH protocol-owned liquidity
+
+Funds received through Bond Protocol
+
+10% of GMX V2 fees
+
+The current treasury is held in multiple contracts:
+
+0x68863dDE14303BcED249cA8ec6AF85d4694dea6A
+0x0339740d92fb8BAf73bAB0E9eb9494bc0Df1CaFD
+0x4bd1cdAab4254fC43ef6424653cA2375b4C94C0E
+The GMX DAO owns the protocol-owned liquidity in the form of Uniswap V3 NFT LP tokens:
+
+0x4bd1cdAab4254fC43ef6424653cA2375b4C94C0E
+If required, the treasury may be used to pay for issues submitted through the Bug Bounty.
+
+GMX Token Supply
+The supply of GMX can be viewed on the Dashboard.
+
+The increase in circulating supply will vary depending on the number of tokens that get vested.
+
+The forecasted max supply is 13.25 million GMX tokens. Minting beyond this max supply will only occur if there is a requirement for it. This requirement must be voted on and approved by GMX governance before it would be permitted.
+
+Supply allocation:
+
+6 million GMX: XVIX and Gambit migration. GMX was formed by a merger of the XVIX and Gambit communities.
+
+2 million GMX: Paired with ETH for liquidity on Uniswap.
+
+2 million GMX: Reserved for vesting of Escrowed GMX tokens.
+
+2 million GMX: For the treasury.
+
+1 million GMX: To be used for integration incentives and community developers.
+
+250,000 GMX: Distributed to contributors linearly over 2 years.
+
+The supply in the dashboard is calculated based on the total minted GMX tokens minus the tokens in vesting, bonding and treasury contracts:
+
+GMX Bonds (Arbitrum): 0xea8a734db4c7EA50C32B5db8a0Cb811707e8ACE3
+GMX Vester (Arbitrum): 0x199070DDfd1CFb69173aa2F7e20906F26B363004
+GLP Vester (Arbitrum): 0xA75287d2f8b217273E7FCD7E86eF07D33972042E
+Affiliate Vester (Arbitrum): 0x7c100c0F55A15221A4c1C5a25Db8C98A81df49B2
+Treasury (Arbitrum): 0x68863dDE14303BcED249cA8ec6AF85d4694dea6A
+GMX Vester (Avalanche): 0x472361d3cA5F49c8E633FB50385BfaD1e018b445
+GLP Vester (Avalanche): 0x62331A7Bd1dfB3A7642B7db50B5509E57CA3154A
+Affiliate Vester (Avalanche): 0x754eC029EF9926184b4CFDeA7756FbBAE7f326f7
+Bridging
+GMX tokens can be bridged between Ethereum and Arbitrum, but you should not use this unless absolutely necessary. All features are on Arbitrum so there should be no strong reason to bridge tokens. If you bridge tokens from Arbitrum to Ethereum there will be a 7 day waiting period during which you will not have access to your tokens.
+
+Instructions to bridge: https://gist.github.com/xvi10/6125b5fbd73f12a2bfce9b729a52255a.
+
+For bridging between chains you can use Jumper.
+
+
+
+
+Rewards
+GMX offers benefits to protocol users, including the ability to participate in the DAO with Voting Power and earn fees from protocol swap and leverage trading activities. These fees are converted to GMX through a buyback mechanism approved by the DAO Tally vote.
+
+Escrowed GMX
+Escrowed GMX (esGMX) has historically been awarded as an incentive for GMX Staking, GLP, referrals, and other programs, and can be used in two ways:
+
+Staked for rewards similar to regular GMX tokens
+Vested to become actual GMX tokens over a period of one year
+Each staked Escrowed GMX token will earn the same amount of GMX rewards as a regular GMX token.
+
+Note that Escrowed GMX (esGMX) is not meant to be transferrable unless you are doing a full account transfer. The amount of GMX or GLP required to vest esGMX is unique per account and the max amount of esGMX that can be vested is capped to the esGMX rewards received by that account.
+
+Vesting
+Escrowed GMX (esGMX) tokens can be converted into GMX tokens through vesting, this can be accessed on the Earn page.
+
+When vesting is initiated, the average amount of GMX or GLP tokens that was used to earn the esGMX rewards will be reserved.
+
+For example, if you staked 1000 GMX and earned 100 esGMX tokens, then to vest 100 esGMX tokens, 1000 GMX tokens will be reserved. To vest 50 esGMX, 500 GMX tokens will be reserved. Note that this is an example and the actual ratio depends on the average staked amount and rewards earned for your account.
+
+esGMX tokens that have been unstaked and deposited for vesting will not earn rewards. Staked tokens that are reserved for vesting will continue to earn rewards.
+
+After initiating vesting, the esGMX tokens will be converted into GMX every second and will fully vest over 365 days. esGMX tokens that have been converted into GMX are claimable at anytime.
+
+If a user sells GMX or GLP tokens and would like to vest their esGMX rewards later on, they would need to re-buy the GMX or GLP tokens.
+
+GMX and esGMX can be used interchangeably for the required reserve amount.
+
+Depositing into the vesting vault while existing vesting is ongoing is supported.
+
+Tokens that are reserved for vesting cannot be unstaked or sold. To unreserve the tokens, use the "Withdraw" button on the Earn page. Partial withdrawals are not supported, so withdrawing will withdraw and unreserve all tokens as well as pause vesting. Upon withdrawal, esGMX tokens that had been vested into GMX will remain as GMX tokens.
+
+Managing Rewards
+Reward management options are available on the Earn page.
+
+Claim GMX Rewards: Claims any pending GMX tokens from GMX staking or any vested esGMX that has been converted to GMX tokens.
+Stake GMX Rewards: Stakes GMX tokens after they have been claimed.
+Claim esGMX Rewards: Claims any pending esGMX rewards.
+Stake esGMX Rewards: Stakes esGMX tokens after they have been claimed.
+These options can be accessed through the "Claim" button on the Earn page.
+
+
+
+Liquidity on V1
+GLP is the liquidity provider token for V1. Liquidity providers earn fees from leverage trading, borrowing fees and swaps.
+
+Overview
+GLP consists of an index of assets used for swaps and leverage trading. It can be minted using any index asset and burnt to redeem any index asset. The price for minting and redemption is calculated based on (total worth of assets in index including profits and losses of open positions) / (GLP supply).
+
+GLP Token Addresses
+Arbitrum: 0x1aDDD80E6039594eE970E5872D247bf0414C8903
+Avalanche: 0x9e295B5B976a184B14aD8cd72413aD846C299660
+Note that GLP is specific to the network you mint it on, it is not directly transferrable between networks and the price, ETH / AVAX rewards for the tokens will differ between networks.
+
+As GLP holders provide liquidity for leverage trading, they will make a profit when leverage traders make a loss and vice versa. Past PnL data, GLP price chart and other stats can be viewed on https://stats.gmx.io.
+
+Buying GLP
+GLP tokens can be bought using the Buy GLP page.
+
+Options to bridge funds to buy the tokens can be found at the bottom of the Buy page.
+
+ETH / AVAX is also required to send the buy transaction.
+
+Any of the GLP index tokens can be used to buy GLP, a list of the index tokens can be found on the Dashboard.
+
+Fees will be lower for tokens that the pool has less of, check the Save on Fees section to get the lowest fees.
+
+After buying your GLP tokens will automatically be staked and you will start earning Escrowed GMX and ETH / AVAX rewards, you can check your rewards on the Earn page.
+
+Selling GLP
+GLP tokens can be sold using the Sell GLP page.
+
+Token Pricing
+There may be a spread for some index tokens, minting GLP will be based on the lower value of the index token and redeeming GLP will be based on the higher value of the index token.
+
+For stablecoin tokens, the spread will be from the Chainlink price of the stablecoin to 1 USD.
+
+The price of GLP will depend on the spread of the tokens in the pool as well.
+
+Token Weights
+The fees to mint GLP, burn GLP or to perform swaps will vary based on whether the action improves the balance of assets or reduces it. For example, if the index has a large percentage of ETH and a small percentage of USDC, actions which further increase the amount of ETH the index has will have a high fee while actions which reduces the amount of ETH the index has will have a low fee.
+
+The token weights can be seen on the Dashboard.
+
+Token weights are adjusted to help hedge GLP holders based on the open positions of traders. For example, if a lot of traders are long ETH, then ETH would have a higher token weight, if a lot of traders are short, then a higher token weight will be given to stablecoins.
+
+If token prices are increasing, then the price of GLP will increase as well, even if there is a larger number of open long positions on the platform. The portion reserved for long positions can be treated as stable in terms of its USD value since if prices increase the profits from that portion will be used to pay traders, and if prices decrease, the losses of traders will keep the USD value of the reserve portion the same.
+
+If a lot of traders are short and larger weights are given to stablecoins, then GLP holders would have a synthetic exposure to the tokens being shorted, e.g. if ETH is being shorted then the price of GLP will decrease if the price of ETH decreases, if the price of ETH increases then the price of GLP will increase from the losses of the short positions.
+
+Risks
+Caution should be exercised when interacting with any smart contract or blockchain application. While risks are attempted to be mitigated through testing, audits and bug bounties, there is always a risk of vulnerabilities in smart contract code.
+
+For details of contract operation please see Contracts V1.
+
+A non-exhaustive list of risks:
+
+Smart contract risks
+Counterparty risks: The GLP pool is the counterparty to traders, if traders make a profit that comes from the value of the GLP pool
+Token risks: Bridged tokens may depend on the security of the bridge, pegged tokens have risks of depegging
+
+
+
+
+Liquidity on V2
+Liquidity on V2 is provided through both automated GLV Pools and individual GM Pools. Liquidity providers earn fees from leverage trading, borrowing fees and swaps.
+
+GLV Pools
+A GLV (GMX Liquidity Vault) pool consists of:
+
+List of supported markets: This is the list of markets in which liquidity will be provided
+Long Token: This is the token that will back long positions
+Short Token: This is the token that will back short positions
+For example, a GLV could be GLV [WETH-USDC], in this case:
+
+The supported markets and allowed liquidity in each market will be recommended by Chaos Labs
+Long Token: WETH tokens back long positions
+Short Token: USDC tokens back short positions
+Liquidity will be automatically shifted between the supported markets based on utilization and the recommendations of Chaos Labs.
+
+Note that while the list of supported markets in which liquidity will be provided are displayed for each GLV, this list can change as additional markets are approved and added.
+
+GM Pools
+A GM pool (GMX Market pool) consists of:
+
+Index Price Feed: Long and short tokens will be opened / closed based on this price feed
+Long Token: This is the token that will back long positions
+Short Token: This is the token that will back short positions
+For example, a market could be ETH/USD [WETH-USDC], in this case:
+
+Index Price Feed: ETH/USD
+Long Token: WETH tokens back long positions
+Short Token: USDC tokens back short positions
+If a market is labelled as SWAP-ONLY or SPOT-ONLY, then the market only supports swaps and does not support leverage trading.
+
+For single-token backed pools, both the long and short token would be the same, e.g. a single token WETH pool would have both the long token and short token as WETH.
+
+Buying GLV / GM Tokens
+GLV / GM tokens can be bought using the GLV / GM Pools page.
+
+Options to bridge funds to buy the tokens can be found at the bottom of the Buy page.
+
+ETH / AVAX is also required to send the buy transaction.
+
+Steps:
+
+Select the "Market" and "Pool" of the GLV / GM token you'd like to purchase in the "Buy GLV / GM" box
+There will be a positive or negative price impact depending on whether your purchase improves or reduces the balance of tokens in the pool
+The price impact will be shown in the "Buy GLV / GM" box
+If the pool is mostly balanced, a large purchase may result in a large negative price impact, to avoid this, select the "Pair" option and buy the GLV / GM token with an equal USD amount of long token and short token
+Selling GLV / GM Tokens
+GLV / GM tokens can be sold using the GLV / GM Pools page.
+
+Note that since tokens in a market are reserved based on the total open interest of the market, the liquidity available for redemption is capped at the tokens in the pool multiplied by the pool's reserve factor minus the tokens reserved. If this capacity is reached, liquidity providers would need to wait for positions to close before selling the GLV / GM token or for liquidity to be deposited by other providers. The borrow fee rate in this case would also be higher which should help to incentivise deposits.
+
+Shifting GM Tokens
+GM tokens can be shifted using the GM Pools page.
+
+GM tokens can only be shifted to another pool that has the same backing tokens, allowing liquidity to be moved without incurring buy or sell fees.
+
+Price impact will still apply to shifts, for pools that are balanced, the price impact should be minimal. Price impact costs are displayed on the interface as usual.
+
+Token Pricing
+The price of the GLV / GM token depends on the price of the long / short tokens and the net pending PnL of traders' open positions.
+
+Fees from leverage trading and swaps will automatically increase the price of GLV / GM tokens.
+
+There may be a spread for some long / short tokens which would result in a spread when buying / selling GLV / GM tokens as well.
+
+GLV / GM pools aim to maintain an equal worth of long and short tokens, so e.g. when the price of a long token increases there may be a positive price impact to incentivise selling of long tokens for short tokens to rebalance the pool. While this balancing is incentivised by the pool it is still possible for pools to not be balanced at times. If a pool keeps its balance, its pricing excluding PnL should mimic a pool that is 50% long token and 50% short token and that rebalances as price changes.
+
+Risks
+Caution should be exercised when interacting with any smart contract or blockchain application. While risks are attempted to be mitigated through testing, audits and bug bounties, there is always a risk of vulnerabilities in smart contract code.
+
+For details of contract operation please see Contracts V2.
+
+A non-exhaustive list of risks:
+
+Smart contract risks
+Counterparty risks: The GLV / GM pool is the counterparty to traders, if traders make a profit that comes from the value of the GLV / GM pool
+Token risks: Bridged tokens may depend on the security of the bridge, pegged tokens have risks of depegging
+While counterparty risk is attempted to be minimized through funding fees and price impact it is not guaranteed that long and short positions will always be balanced. An additional case to note is that if, for example, long positions happen to be balanced with high leverage short positions and there is a sudden price spike, the high leverage short positions could be liquidated, temporarily causing an imbalance of longs and shorts.
+
+
+
+Trading on V1
+GMX is a decentralized exchange allowing trading without the need for a username or password. The platform uses a price feed based on an aggregate of exchanges which reduces the risk of liquidations from temporary wicks.
+
+Selecting V1
+On the Trade page click on "V1" in the trading bar to select V1.
+
+Adding a Wallet
+If you do not have a wallet yet, you can use Rabby.
+
+Connecting your Wallet
+After you have a wallet, you can connect your wallet by pressing the "Connect Wallet" button on the Trade page.
+
+If you see the message: "Your wallet is not connected to Arbitrum / Avalanche", click on "Add Arbitrum" or "Add Avalanche" to add the Arbitrum / Avalanche network to your wallet.
+
+Alternatively, you can manually add the network:
+
+Arbitrum: Tutorial
+Avalanche: Tutorial
+RPC URLs
+Since GMX is a decentralized exchange, querying of data and submitting of transactions is done through an RPC URL.
+
+There may be times when the RPC URL is not as responsive as it should be, during these times you may notice data being slow to load or not loading on your page. It is also possible to hit the rate limit with the public Arbitrum RPC URL (https://arb1.arbitrum.io/rpc) which would result in 429 errors.
+
+To continue using the exchange during these times you can use a backup URL or switch the RPC URL in the network settings of your wallet and the page should load faster after.
+
+A list of RPC URLs and their statuses can be found on Chainlist.
+
+Sending Tokens
+You will need to have ETH in your Arbitrum account or AVAX in your Avalanche account to start trading.
+
+You can buy ETH directly on Arbitrum or AVAX on Avalanche from the options listed under "Buy ETH" or "Buy AVAX" (depending on the connected network) on the Buy page.
+
+Alternatively, if you have ETH or AVAX on other networks, you can transfer them to Arbitrum or Avalanche from any of the options under "Transfer ETH" or "Transfer AVAX" on the Buy page.
+
+Swaps
+GMX supports both swaps and leverage trading. For swaps, click on the "Swap" tab on the Trade page, this will open the interface to swap tokens.
+
+For leverage trading, please see the below sections for more information.
+
+Opening a Position
+Click on "Long" or "Short" on the Trade page depending on which side you would like to open a leverage position on.
+
+Long position:
+
+Earns a profit if the token's price goes up
+Makes a loss if the token's price goes down
+Short position:
+
+Earns a profit if the token's price goes down
+Makes a loss if the token's price goes up
+After selecting your side, key in the amount you want to pay and the leverage you want to use.
+
+Below the swap box you would see the "Exit Price", which is the price that is used to calculate profits if you open and then immediately close a position. The exit price will change with the price of the token you are longing or shorting.
+
+The trading fee to open a position is 0.1% of the position size, similarly there is a 0.1% fee when closing the position.
+
+There is also a "Borrow Fee" that is deducted at the start of every hour. This is the fee paid to the counter-party of your trade. The fee per hour will vary based on utilization, it is calculated as (assets borrowed) / (total assets in pool) * 0.01%. The "Borrow Fee" for longing or shorting is shown below the swap box.
+
+While there are no price impacts for trades, there can be slippage due to price movements between when your trade transaction is submitted and when it is confirmed on the blockchain. Slippage is the difference between the expected price of the trade and the execution price, this can be customised in the "Settings" menu by clicking on the "..." icon at the top right of the page.
+
+Managing Positions
+After opening a trade, you would be able to view it under your Positions list, you can also click on "Edit" to deposit or withdraw collateral, this allows you to manage your leverage and liquidation price.
+
+When you open a position or deposit collateral, a snapshot of the USD price of your collateral is taken, so e.g. if your collateral is 0.1 ETH and the price of ETH is 5000 USD at the time, then your collateral is 500 USD and will not change even if the price of ETH changes.
+
+The amount of profit and loss you make will be proportional to your position size. For example, if you open a long ETH position of size 10,000 USD and if the price of ETH increases by 10%, the position would have a profit of 1000 USD, if the price of ETH decreases by 10%, the position would have a loss of 1000 USD.
+
+If a short position was opened instead, then if the price of ETH decreased by 10% the position would have a profit of 1000 USD, if the price of ETH increased by 10%, the position would have a loss of 1000 USD.
+
+Leverage for a position is displayed as (position size) / (position collateral). If you'd like to display the leverage as (position size + PnL) / (position collateral) instead, you can customise this in the "Settings" menu by clicking on the "..." icon at the top right of the page.
+
+Note that when depositing collateral into a long position, there is a 0.3% deposit fee for the conversion of the asset to its USD value, e.g. ETH amount to USD value. This is to prevent deposits from being used as a zero fee swap. This does not apply to shorts. This fee also does not apply when withdrawing collateral for longs or shorts.
+
+Closing a Position
+You can close a position partially or completely by clicking on the "Close" button in the position row.
+
+For long positions, profits are paid in the asset you are longing, e.g. if you long ETH you would get your profits as ETH.
+
+For short positions, profits will be paid out in the same stablecoin that you used to open the position, e.g. USDC or USDT.
+
+You can customize the token to be received by changing the "Receive" token in the "Close Position" menu. Note that this may perform a swap from your profit token to the token you select if needed, the swap fees will be shown in the "Close Position" menu.
+
+Stop-Loss / Take-Profit Orders
+You can set stop-loss and take-profit orders by clicking on the "Close" button and selecting the "Trigger" tab.
+
+After creating a trigger order, it will appear in your position's row as well as under the "Orders" tab, you can edit the order and change the trigger price if needed.
+
+If you close a position manually, the associated trigger orders will remain open, you would need to cancel them manually if you do not want the order to be active when opening future positions.
+
+Note that orders are not guaranteed to execute, this can occur in a few situations including but not exclusive to:
+
+The mark price which is an aggregate of exchange prices did not reach the specified price
+The specified price was reached but not long enough for it to be executed
+The order's size exceeds the remaining position size
+No keeper picked up the order for execution
+Additionally, trigger orders are market orders and are not guaranteed to execute at the trigger price.
+
+Liquidations
+If an ETH long position is opened and the position size is larger than the collateral value, then there would be a price at which the position's loss amount is very close to the collateral value.
+
+This is referred to as the Liquidation Price and is calculated as the price at which the (collateral - losses - borrow fee) is less than 1% of your position's size. If the token's price crosses this point then the position will be automatically closed.
+
+Due to the borrow fee your liquidation price will change over time, especially if you use a leverage that is more than 10x and have the position open for more than a few days, so it is important to monitor your liquidation price.
+
+Collateral can be deposited using the "Edit" button in the position row, this will help to improve the liquidation price and reduce the risk of liquidation.
+
+When a position is liquidated, any collateral remaining after deducting losses and fees would be returned to your account.
+
+Pricing
+There is no price impact for trades on GMX V1, so you can execute large trades exactly at the mark price. During times of high volatility there may be a spread from the Chainlink price to the median price of reference exchanges.
+
+The mark prices are displayed next to the market name, long positions will be opened at the higher price and closed at the lower price while short positions will be opened at the lower price and closed at the higher price.
+
+The chart will indicate the average of the two mark prices.
+
+Fees
+The cost to open / close a position is 0.1% of the position size.
+
+The collateral of long positions is the token being longed, for ETH longs the collateral is ETH and for BTC longs the collateral is WBTC, etc.
+
+The collateral of shorts positions is any of the supported stablecoins e.g. USDC, USDT, DAI, FRAX.
+
+If a swap is needed when opening or closing a position then the regular swap fee would apply, this fee is 0.2% to 0.8% of the collateral size, the exact fee depends on whether the swap improves balance or reduces it.
+
+There is also a network fee detailed below, which is used to pay for the blockchain network costs.
+
+Network Fee
+There are two transactions involved in opening / closing / editing a position:
+
+User sends the first transaction to request open / close / deposit collateral / withdraw collateral
+Keepers observe the blockchain for these requests then execute them
+The cost of the second transaction is displayed in the interface as the "Network Fee". This network cost is paid to the blockchain network.
+
+Stablecoin Pricing
+In case the price of a stablecoin depegs from 1 USD:
+
+Opening and closing short positions during this time would incur a cost on the collateral based on a spread of 1 USD to the Chainlink price of the stablecoin. For example, if the price of the chosen stablecoin depegs to 0.95 USD, opening a position using 1000 of that stablecoin would result in a position collateral of 950 USD based on a price of 0.95 USD, when closing the position, 950 of the stablecoin would be withdrawn based on a price of 1 USD, this is to prevent front-running issues during a depeg since collateral is stored as a USD value and converted to tokens based on the latest price.
+
+To ensure that profits for all short positions can always be fully paid out, the contracts will pay out profits in the stablecoin based on a price of 1 USD or the current Chainlink price for the stablecoin, whichever is higher.
+
+For swaps using the depegged stablecoin, the spread from 1 USD to the Chainlink price of the stablecoin will similarly apply.
+
+Long positions should not be affected though there may be a spread if swapping from a depegged stablecoin into the long collateral needed for the position, e.g. to long ETH, ETH collateral is needed. Alternative swap platforms could be used to execute the swap before opening the long position. The interface should show a warning if there is a large spread for this.
+
+
+
+Trading on V2
+GMX is a decentralized exchange allowing trading without the need for a username or password. The platform uses a price feed based on an aggregate of exchanges which reduces the risk of liquidations from temporary wicks.
+
+Selecting V2
+On the Trade page click on "V2" in the trading bar to select V2.
+
+Adding a Wallet
+If you do not have a wallet yet, you can use Rabby.
+
+Connecting your Wallet and Funding Your Account
+After you have a wallet, you can connect your wallet by pressing the "Connect Wallet" button on the Trade page.
+
+To fund your account with the required gas tokens, refer to your wallet onboarding experience, which should offer simple options for buying, bridging, and on-ramping.
+
+Express Trading and One-Click Trading
+GMX provides different modes to suit trader preferences: Classic Trading, Express Trading, and Express + One-Click Trading. Each mode offers varying levels of convenience and trade execution speed.
+
+Mode	Signing method	RPC infrastructure	Gas payments
+Classic Trading	On-chain: wallet signing popup for each trade	Uses your own wallet’s RPC	ETH on Arbitrum, AVAX on Avalanche, BTC on Botanix
+Express Trading	Off-chain: you sign messages locally; GMX broadcasts on-chain via Gelato Relay	GMX-sponsored premium RPCs (high reliability)	USDC or WETH on Arbitrum, USDC or WAVAX on Avalanche, PBTC on Botanix
+Express + One-Click Trading	Off-chain: auto-signed with a locally stored sub-account key (no manual confirmations)	GMX-sponsored premium RPCs (high reliability)	USDC or WETH on Arbitrum, USDC or WAVAX on Avalanche, PBTC on Botanix
+Enabling One-Click Trading
+One-Click trading can be enabled through the settings menu in the top right of the interface.
+
+Enabling this feature allows instant trading without a wallet signing popup for each trade.
+
+Safety Features for One-Click Trading:
+Funds from decreasing positions, closing positions, or swaps can only be sent back to your wallet.
+Trades executed without signing popups are limited by the maximum number you authorize. For instance, if you authorize 10 actions, after 10 trades, a wallet signing popup will appear to re-authorize further trades.
+Risks for One-Click Trading:
+This feature uses a sub-account key stored locally in your browser. If your browser is compromised, the key could potentially leak, allowing malicious trades to be executed.
+The previously authorized trade limit acts as a safeguard. Even if compromised, a malicious actor can only execute trades up to the authorized limit.
+RPC URLs
+GMX uses different RPC URLs for querying (reading data) and submitting transactions (writing data).
+
+Reading RPCs are set automatically by the GMX interface and selected from a curated list to ensure fast and reliable data loading.
+
+Writing RPCs:
+
+Classic Mode: Set by your wallet.
+Express Mode and Express + One-Click Mode: Automatically set to GMX-sponsored premium RPCs (via Gelato) for superior reliability and speed.
+If you're experiencing issues while trading in Classic mode, consider switching to Express or Express + One-Click mode through the settings menu. Alternatively, you can manually select another RPC URL via your wallet from options provided on Chainlist.
+
+Swaps
+GMX supports both swaps and leverage trading. For swaps, click on the "Swap" tab on the Trade page, this will open the interface to swap tokens.
+
+For leverage trading, please see the below sections for more information.
+
+Opening a Position
+Click on "Long" or "Short" on the Trade page depending on which side you would like to open a leverage position on.
+
+Long position:
+
+Earns a profit if the token's price goes up
+Makes a loss if the token's price goes down
+Short position:
+
+Earns a profit if the token's price goes down
+Makes a loss if the token's price goes up
+After selecting your side, key in the amount you want to pay and the leverage you want to use.
+
+Below the swap box you would see the "Exit Price", which is the price that is used to calculate profits if you open and then immediately close a position. The exit price will change with the price of the token you are longing or shorting.
+
+Selecting a Market
+You can select a market by changing the token that you'd like to Long or Short.
+
+Selecting a Pool
+Multiple pools may be available for your selected market, for example, there may be an ETH-USDC and ETH-USDT pool. You can select which pool you'd like to trade in depending on which collateral you prefer to be backing your positions.
+
+Selecting a Collateral
+Multiple types of collateral may be available for your selected market, for example, in the ETH-USDC market, you can choose whether your position's collateral is stored as ETH or USDC.
+
+Examples of how this could be used:
+
+Long ETH with ETH as collateral: You would have be long ETH from your long position as well as from your ETH collateral. It is possible to e.g. open a 0.1 ETH long position for a small amount of ETH while using 1 ETH as collateral for a total of 1.1 ETH exposure.
+
+Long ETH with USDC as collateral: You would be long ETH only from your long position. This could be useful if switching frequently between longing and shorting.
+
+Short ETH with ETH as collateral: This could be useful for delta neutral strategies to earn funding fees. For example, if funding is such that longs pay shorts, then a 1 ETH short position could be opened with 1 ETH as collateral.
+
+Short ETH with USDC as collateral: This could be useful if switching frequently between longing and shorting.
+
+Note that if opening a long position with a non-stablecoin as collateral, your liquidation price may change as the price of your collateral changes.
+
+Max Leverage
+The max allowed leverage of a pool will decrease as the total open interest of the pool increases, this is to guard the pool against gaming of price impact using high leverage positions. This mainly affects markets with less liquidity but can affect high liquidity markets if the open interest is very large. The interface will show a warning if the max allowed leverage will be exceeded. Note that this only affects opening / increasing of positions, it will not affect positions that have already been opened. For closing / decreasing of positions, if the max allowed leverage would be exceeded when decreasing a position then the order can still be executed, but the collateral within the position would not be reduced.
+
+Managing Positions
+After opening a trade, you would be able to view it under your Positions list, you can also click on "Edit" to deposit or withdraw collateral, this allows you to manage your leverage and liquidation price.
+
+Closing a Position
+You can close a position partially or completely by clicking on the "Close" button in the position row. Closing a position will realise pending profits / losses proportional to the percentage of the position that is closed.
+
+For long positions, profits are paid in the asset you are longing, e.g. if you long ETH your profits will be in ETH.
+
+For short positions, profits will be paid out in the same stablecoin that you used to open the position, e.g. USDC or USDT.
+
+You can customize the token to be received by changing the "Receive" token in the "Close Position" menu. Note that this may perform a swap from your profit token to the token you select if needed, the swap fees will be shown in the "Close Position" menu.
+
+The amount of profit and loss for a position, excluding changes in your collateral's value, will be proportional to your position size. For example, if you open a long ETH position of size 10,000 USD and if the price of ETH increases by 10%, the position would have a profit of 1000 USD, if the price of ETH decreases by 10%, the position would have a loss of 1000 USD.
+
+If a short position was opened instead, then if the price of ETH decreased by 10% the position would have a profit of 1000 USD, if the price of ETH increased by 10%, the position would have a loss of 1000 USD.
+
+Leverage for a position is displayed as (position size) / (position collateral). If you'd like to display the leverage as (position size + PnL) / (position collateral) instead, you can customise this in the "Settings" menu by clicking on the "..." icon at the top right of the page.
+
+Limit Orders
+Limit orders can be created by selecting the "Limit" option after choosing to open a long or short position, or by selecting "Increase Size (Limit)" from the "..." menu in the position row if you already have an open position.
+
+After creating a Limit order, it will appear under the "Orders" tab. you can edit the order and adjust the trigger price if needed. Keep in mind that Limit orders on GMX are still affected by price impact and may not execute at the exact trigger price. You can set an acceptable price impact, allowing the order to execute at the latest price if the acceptable price is met.
+
+Note that Limit orders are not guaranteed to execute, this can occur in a few situations including but not exclusive to:
+
+The mark price which is an aggregate of exchange prices did not reach the specified price
+The mark price was reached but there may not be sufficient liquidity to execute the order
+The mark price was reached but the max allowed leverage would be exceeded
+The set acceptable price was not met
+Stop Market Orders
+Stop Market orders can be created by selecting the "Stop Market" option after choosing to open a long or short position, or by selecting "Increase Size (Stop Market)" from the "..." menu in the position row if you already have an open position.
+
+After creating a Stop Market order, it will appear under the "Orders" tab. You can edit the order and adjust the trigger price if needed. Keep in mind that Stop Market orders are market orders and may not execute at the exact trigger price due to price impact. However, they will execute regardless of any price impact.
+
+Note that Stop Market orders are not guaranteed to execute, this can occur in a few situations including but not exclusive to:
+
+The mark price which is an aggregate of exchange prices did not reach the specified price
+The mark price was reached but there may not be sufficient liquidity to execute the order
+The mark price was reached but the max allowed leverage would be exceeded
+TWAP Orders
+TWAP (Time-Weighted Average Price) orders will increase or decrease positions, as well as perform swaps, in evenly distributed parts over a specified time. By breaking down the order into smaller chunks and executing them over a predefined time period, TWAP aims to reduce the price impact.
+
+These can be created by selecting the "TWAP" option after choosing to open or decrease a long or short position, or by selecting "Increase Size (TWAP)" from the "..." menu in the position row if you already have an open position. TWAP orders are also available for swaps.
+
+After creating a TWAP order, it will appear under the "Orders" tab. TWAP orders can't be edited, but they can be cancelled and recreated.
+
+Note that TWAP orders parts are not guaranteed to execute, this can occur in a few situations including but not exclusive to:
+
+There may not be sufficient liquidity to execute the order
+The max allowed leverage would be exceeded
+Take Profit and Stop Loss Orders
+Take Profit and Stop Loss (TP / SL) orders can be created by clicking the "Close" button for a position, selecting "Set TP/SL" from the "..." menu in the position row, or using the "TP/SL" tab in the trade box.
+
+After creating a TP / SL order, it will appear in your position's row and under the "Orders" tab. You can edit the order and adjust the trigger price if needed. Keep in mind that TP / SL orders are market orders and may not execute at the exact trigger price due to price impact. For take Profit Orders, you can set an acceptable price impact, while Stop Loss orders will execute regardless of any price impact.
+
+Note that TP / SL orders are not guaranteed to execute, this can occur in a few situations including but not exclusive to:
+
+The mark price which is an aggregate of exchange prices did not reach the specified price
+The set acceptable price was not met for Take Profit orders
+Auto-Cancel TP / SL
+The Auto-Cancel feature automatically cancels Take Profit and Stop Loss (TP / SL) orders when the associated position is fully closed, whether by market close, liquidation, or a triggered TP/SL order. It does not cancel Limit or Stop Market orders.
+
+Auto-Cancel is enabled by default for new TP/SL orders but can be turned off in Settings.
+
+Currently, there is a limit of 10 auto-cancel orders per position on Arbitrum and 5 auto-cancel orders per position on Avalanche. Any orders beyond this limit won't be auto-cancelled. Users will be notified if they exceed the limit, which may change in the future.
+
+Order Execution
+If a Limit / Stop Market / Stop Loss / Take Profit order's trigger price is reached, the order will attempt to be executed, if the price impact is too high and the acceptable price is not met or if there is insufficient liquidity then the order will be in a frozen state. Regular orders will be executed at the price closest to the trigger price, for frozen orders, they will be executed at the latest price instead. The acceptable price requirement will still apply, so frozen orders will only be executed at the latest price if the acceptable price can be met.
+
+Liquidations
+If an ETH long position is opened and the position size is larger than the collateral value, then there would be a price at which the position's loss amount is very close to the collateral value.
+
+This is referred to as the Liquidation Price and is calculated as the price at which the (collateral - losses - fees) is less than a certain percentage, which ranges from 0.4% to 1%, depending on the market and pool settings, of your position's size. If the token's price crosses this point, then the position will be automatically closed.
+
+The price used to calculate whether a position is liquidatable is based on the oracle price, and it does not factor in any negative or positive price impact. When the position is liquidated, the actual positive and negative price impact is applied to close the position.
+
+Due to borrowing and funding fees, your liquidation price is not static. Especially if you use leverage greater than 10x and have the position open for more than a few days, it's crucial to actively monitor your liquidation price.
+
+Collateral can be deposited using the "Edit" button in the position row; this will help to improve the liquidation price and reduce the risk of liquidation.
+
+When a position is liquidated, any collateral remaining after deducting losses, liquidation fees and other pending fees would be returned to your account.
+
+Liquidation fees:
+
+0.2% for non-synthetic markets
+0.3% for synthetic markets
+0.45% for newly listed / high volatility markets
+Market Types and ADL
+Two types of markets are possible in GMX V2.
+
+Fully backed markets
+An example of a fully back market would be an ETH perp market backed by ETH-USDC where the open interest is limited to be less than the total amount of ETH and USDC tokens in the pool.
+
+For example, if there is 1000 ETH and 1 million USDC in the pool and the max long open interest is limited to 900 ETH and the max short open interest is limited to be 900k USDC, then all profits can always be fully backed regardless of the price of ETH.
+
+Synthetic markets
+An example of a synthetic market would be a DOGE perp market backed by ETH-USDC. While the max long open interest could be limited to a fraction of the amount of ETH tokens, it may be possible for the profits of long positions to exceed the worth of the tokens in the pool.
+
+For example, if there is 1000 ETH and 1 million USDC in the pool and the max long DOGE open interest is limited to 300 ETH, but the price of DOGE increases 10x while the price of ETH increases only by 2x, in this case the pending profits would exceed the worth of the ETH in the pool.
+
+To avoid this scenario, ADL (Auto-Deleveraging) may take place. When the pending profits exceed the market's configured threshold, profitable positions may be partially or fully closed. This helps to ensure that markets are always solvent and all profits at the time of closing can be fully paid.
+
+Fees and Rebates
+Open / Close Fees
+The trading fee to open a position is 0.04% or 0.06% of the position size, similarly there is a 0.04% or 0.06% fee when closing the position. This applies for increasing the position size of an existing position and partially decreasing a position size as well.
+
+If the trade increases the balance of longs and shorts then the fee would be 0.04%, otherwise the fee would be 0.06%.
+
+Swap Fees
+The fees for a normal swap are 0.05% or 0.07% of the swap amount.
+
+If the trade increases the balance of tokens in the pool then the fee would be 0.05%, otherwise the fee would be 0.07%.
+
+The fees for stablecoin swaps are 0.005% and 0.02% of the swap amount.
+
+If the trade increases the balance of tokens in the stablecoin pool then the fee would be 0.005%, otherwise the fee would be 0.02%.
+
+Price Impact
+There may be a positive or negative price impact for increasing / decreasing positions and for swaps.
+
+If the trade improves the long / short balance or tokens in the pool then there would be a positive price impact, otherwise there would be a negative price impact.
+
+For increasing / decreasing positions, a positive price impact would result in an entry / exit price that is more favourable for your position, e.g. if opening a long position with a positive price impact, the position's entry price would be lower. A negative price impact would result in a entry / exit price that is less favourable, e.g. if opening a long position with a negative price impact, the position's entry price would be higher.
+
+For swaps, a positive price impact would increase the amount of tokens received while a negative price impact would decrease the amount of tokens received.
+
+The price impact values can be viewed on the interface when making a trade.
+
+Price Impact Rebates
+Under normal circumstances, the long and short open interest should be mostly equal and price impact should be minimal.
+
+However, it is possible in times of volatility for the long and short open interest to be imbalanced leading to a high price impact.
+
+Price impact rebates help to reduce the effect of this. Each market has a maximum price impact as a guideline; if a trade is closed with a price impact higher than this percentage then the additional impact would become claimable after approximately 10 days.
+
+For example, if the maximum price impact for a market is 1% and a trade is closed with 3% negative price impact, then the collateral equivalent to 2% negative price impact would be claimable after a few days on the interface.
+
+The purpose of having a delay of a few days is to guard against price manipulation attempts. In the case of a price manipulation attempt, rebates should be reviewed and only applied to accounts that were not involved in the price manipulation.
+
+Note that this rebate only applies to closing / decreasing of positions; for opening / increasing of positions there is no maximum price impact. For market increase orders, the price impact would be shown on the interface so that users can decide if the impact is acceptable. For stop market orders, the current price impact will be displayed on the interface, but the price impact at execution may vary. For limit orders, the acceptable price including any price impact must be met for the order to be executed.
+
+Funding Fees
+There may be positive or negative funding fees while a position is open.
+
+The funding fee rate can be viewed on the interface when making a trade. Note that the rate will change over time based on the balance of longs and shorts.
+
+If you receive positive funding fees for your position, these fees can be claimed by using the "Claim" button in the "Claimable Funding" box of the Trade page.
+
+Adaptive Funding
+Funding rates gradually adjust over time based on the long and short ratio.
+
+For example, if the total long open interest is larger than the short open interest then the funding rate that longs pay shorts will gradually increase until the difference between the long and short open interest is below a certain threshold or an upper limit is reached, at which time the funding rate will remain constant.
+
+If in this scenario more shorts are opened or longs are closed such that there are now more shorts than longs then the funding rate that longs pay shorts will gradually decrease until the difference between the long and short open interest is below a certain threshold.
+
+If there remains more shorts than longs then the funding rate will gradually adjust in the other direction such that shorts will pay longs a funding rate that gradually increases until the difference between the long and short open interest is below a certain threshold or an upper limit is reached.
+
+Borrowing Fees
+To avoid a scenario where liquidity is fully reserved by a user opening equal long and short positions for a small cost, there is a borrowing fee for open positions. If there are more longs than shorts then longs would pay the borrowing fee, if there are more shorts than longs then shorts would pay the borrowing fee. This borrowing fee also helps to incentivise more liquidity to be added in the event that all liquidity is reserved for positions.
+
+The borrowing fee rate can be viewed on the interface when making a trade. Note that the rate will change over time based on the pool utilization percentage.
+
+Network Fee
+There are two transactions involved in opening / closing a position:
+
+User sends the first transaction to request open / close / deposit collateral / withdraw collateral
+Keepers observe the blockchain for these requests then execute them
+The cost of the second transaction is displayed in the interface as the "Max Network Fee". This network cost is paid to the blockchain network when the order is executed. This cost is overestimated to handle potential increases in gas price. When the order is executed, the excess execution fee is sent back to your account. The amount of overestimation can be configured using the "Settings" menu in the top right corner of the page.
+
+Trading Risks
+Caution should be exercised when interacting with any smart contract or blockchain application. While risks are attempted to be mitigated through testing, audits and bug bounties, there is always a risk of vulnerabilities in smart contract code.
+
+A non-exhaustive list of risks:
+
+Smart contract risks
+Liquidations
+ADLs
+Additionally, collateral and profits may be backed by bridged or pegged tokens which may not be guaranteed to maintain peg.
+
+Stablecoin Pricing
+In case the price of a stablecoin depegs from 1 USD:
+
+For stablecoin tokens, there may be a spread from the Chainlink price of the stablecoin to 1 USD. If Chainlink Data Stream prices are used then the spread would be from the data stream and may not be to 1 USD.
+Arbitraging
+If pools are imbalanced for swaps or perps, arbitraging can be done to gain a profit while helping to balance the pools.
+
+Swaps
+For swaps, positive price impact can be arbitraged.
+
+For example, in the ETH-USDC pool, if the USD value of ETH in the pool is more than the USD value of USDC in the pool, then there would be a positive price impact to swap USDC for ETH. This positive price impact would result in additional ETH being received for a USDC to ETH swap.
+
+Pool balances can be viewed on the V2 Stats page.
+
+Perps
+For perps, positive price impact and funding fees can be arbitraged.
+
+For example, if there are more ETH long positions than short positions then there would be a positive price impact to open ETH short positions, this would result in a better entry price than the current market price. The position would also earn funding fees while it remains open.
+
+If in the same scenario, the ETH long positions close such that there are more shorts than longs, then there would be a positive price impact to close the long position, this would result in a better exit price than the current market price.
+
+For markets where the index token is the same as the collateral token, e.g. using ETH collateral in the ETH perp market, delta neutral positions can be opened by using the collateral token to open a short position. Conversely, when arbitraging with long positions, a 1x long position can be opened using a stablecoin as collateral, this would lead to 1x exposure to the index token.
+
+Note that funding will tend towards zero as the long / shorts become balanced, this should be considered when deciding on the position size to open for arbitrage.
+
+Pool balances and funding rates per hour can be viewed on the V2 Stats page.
+
+Direct URLs
+The GMX frontend supports direct URLs that pre-fill parameters, enabling users to share specific trading configurations.
+
+Trade Parameters
+tradeType
+The type of trade
+Allowed Values: long, short, swap
+mode
+The mode of the trade
+Allowed Values: limit, market, stopmarket, trigger and tpsl
+from
+The token used for payment in the trade
+Allowed Values: Valid token symbol supported by the platform such as eth, btc, usdc, etc.
+to or market
+The asset to long, short or swap to
+Allowed Values: Valid token symbol supported by the platform such as eth, btc, uni, etc.
+collateral
+The asset used as collateral for the trade
+Allowed Values: Valid token symbol supported by the platform such as eth, usdc, usdt, etc,
+pool
+The liquidity pool where the trade is executed
+Allowed Values: Valid pool name/address supported by the platform such as weth-usdc, btc-usdc, etc.
+Examples:
+
+https://app.gmx.io/#/trade/long/?mode=limit&from=eth&market=sol
+https://app.gmx.io/#/trade/short/?mode=limit&from=eth&to=btc
+https://app.gmx.io/#/trade/short/?mode=market&from=eth&to=btc&collateral=usdc
+https://app.gmx.io/#/trade/short/?mode=market&from=eth&to=sol&collateral=usdc&pool=sol-usdc
+GM Pools Parameters
+operation
+Whether to buy or sell GM tokens
+Allowed Values: buy or sell
+market
+The market to buy GM tokens for
+Allowed Values: Valid market name supported by the platform such as eth, btc, swap-only etc. swap-only is used for listing the swap only markets for GMX v2.
+pools
+The pool to buy GM token for
+Allowed Values: Valid pool name such as btc-usdc, usdc-dai, arb-usdc, etc.
+mode
+The trade mode
+Allowed Values: single or pair
+from
+Token used for payment to buy GM tokens
+Allowed Values: Valid token symbol supported by the platform such as btc, eth, usdc, etc.
+to
+The token to be received when selling GM tokens
+
+Allowed Values: Valid token symbol supported by the platform such as btc, usdc, usdt, etc.
+
+Examples:
+
+https://app.gmx.io/#/pools/?operation=buy&market=sol&mode=pair
+https://app.gmx.io/#/pools/?operation=buy&market=eth&mode=single&from=usdc
+https://app.gmx.io/#/pools/?operation=buy&market=swap-only&mode=single&pool=usdc-dai
+https://app.gmx.io/#/pools/?operation=sell&market=eth&mode=pair
+GLP Parameters
+operation
+Whether to buy or sell GLP
+Allowed Values: buy or sell
+from
+The token used for payment to buy GLP
+Allowed Values: Valid token symbol supported by the platform such as btc, eth, usdc, etc.
+to
+The token to be received when selling GLP
+Allowed Values: Valid token symbol supported by the platform such as btc, usdc, usdt, etc.
+Examples:
+
+https://app.gmx.io/#/buy_glp/?operation=buy&from=eth
+https://app.gmx.io/#/buy_glp/?operation=sell&to=usdt
+
+
+
+
+twitter：
+GMX Twitter 分析报告 (总结)
+请将以下总结，作为你第三步【市场与竞品分析】的最终成果，记录在你的文档里。
+
+1. 置顶推文分析：一场教科书式的“危机公关”
+GMX的置顶推文（关于$44M的GLP漏洞补偿计划）并不仅仅是一个公告，更是一次高明的运营和营销活动。
+
+核心策略： 将危机转化为机会。他们没有简单地赔钱了事，而是将赔偿金以新产品 $GLV 的形式发放，并强调 $GLV 是 $GLP 的“增强版”，这实际上是引导V1用户迁移到V2，同时展示了V2产品的优越性。
+
+建立信任： 他们详细披露了事件的时间线，并强调了V2的安全性，最后将整个事件定性为“重申GMX对安全、透明和社区的承诺”。这极大地增强了市场信心。
+
+数据佐证： Dune图表（图 image_c9e3cd.png）完美印证了这次公关的成功。在“GLP Vulnerability”事件导致TVL短暂下跌后，迅速强力反弹并创下新高，这说明市场完全接受了GMX的处理方式，信心不减反增。
+
+2. 内容策略分析：专业、高频、建立权威
+从8月7日到8月13日的推文可以看出，GMX的内容策略主要围绕以下几点展开：
+
+持续的产品迭代与上新： 频繁发布新功能和新市场，例如上线MNT/USD交易对 和在GMX-Solana上线S&P 500交易。这向市场传递出“我们团队在做事”的强烈信号。
+
+用数据彰显实力： 转发OurNetwork的报告，强调其累计协议收入在7月已突破1.3亿美元。这利用了第三方的数据来建立自己的市场地位和权威性。
+
+重视开发者与专业用户教育： 推出针对开发者的教育课程 和举办深入的AMA（线上问答）活动，这表明GMX的目标用户是更专业的DeFi玩家和开发者，巩固了其“专业”的品牌形象。
+
+生态系统扩展： 通过GMXSOL的“Trade To Mint”活动 和转发社区的治理提案（如GHV），展现其生态的广度和深度。
+
+3. 运营活动与合作伙伴分析
+具体活动案例： “GMX永续合约交易教育计划”是一个典型的运营活动。他们联合了专业的教育机构（Updraft）和顶级公链（Arbitrum）共同举办AMA，这是一种“强强联合”，互相背书，共同扩大影响力的策略。
+
+合作伙伴网络： 从推文中可以明确看到GMX的合作伙伴包括 Arbitrum, Updraft, Mantle_Official, chaos_labs, Cyfrin, Citizenofgmx 等，覆盖了公链、安全、教育、社区等多个领域。
+
+
