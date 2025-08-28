@@ -85,6 +85,6 @@ Here is a list of the main projects included in this portfolio. Click on the fol
 ## 📫 联系我 (Contact)
 
 * **邮箱:** JudyWang19981228@gmail.com
-* **领英 (LinkedIn):** `https://www.linkedin.com/in/jody-wong-90040733a/`
+* **领英 (LinkedIn):** https://www.linkedin.com/in/jody-wong-90040733a/
 
 如果您对我的项目有任何问题或建议，欢迎随时与我联系！
